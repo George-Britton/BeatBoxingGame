@@ -15,7 +15,7 @@ class BEATBOXING_API UGetRainbowSignature : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 		UFUNCTION(BlueprintCallable)
-		static FString GetRainbowSignature(const int UniqueIdentifier);
+		static FString GetRainbowSignature(const int32 UniqueIdentifier);
 	
 	
 };

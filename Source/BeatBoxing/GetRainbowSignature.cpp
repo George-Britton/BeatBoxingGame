@@ -3,7 +3,7 @@
 #include "GetRainbowSignature.h"
 
 UFUNCTION(BlueprintCallable)
-FString UGetRainbowSignature::GetRainbowSignature(const int UniqueIdentifier)
+FString UGetRainbowSignature::GetRainbowSignature(const int32 UniqueIdentifier)
 {
 	FString output = "Red";
 
